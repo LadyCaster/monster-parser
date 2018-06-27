@@ -3,7 +3,6 @@ import os
 import requests
 from bs4 import BeautifulSoup
 import unicodedata
-import json
 
 def main():
     text = get_text(open_url(input(str())))
